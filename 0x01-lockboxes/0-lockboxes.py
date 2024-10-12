@@ -2,6 +2,13 @@
 def canUnlockAll(boxes):
 
     print(boxes)
+    """"
+        taking boxes 
+            create set of keys 
+            go to box0
+             get all keys and save it in setofkeys
+            start opening boxes from set of keys
+    """
 
     print("boxs: ", boxes)
     print("The total of boxes: ", len(boxes))
